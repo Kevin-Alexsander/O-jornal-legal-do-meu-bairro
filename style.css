@@ -1,0 +1,52 @@
+nav ul li{
+    font-size: 25px;
+    padding: lem lem;
+    background-color: red;
+    color: black;
+    border: lpx solid black;
+    transition: all ease 0.5s ;
+}
+
+nav ul li:hover{
+    background-color: black;
+    color: red;
+    border: 1px solid red;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: green 
+}
+    
+
+
+a{
+    font-size: 30px;
+
+}
+
+#titulo{
+
+    animation-name: descendo;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes descendo{
+    0%{
+        transform: translateY(0px);
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: translateY(200px);
+        transform: rotate(360deg);
+    }
+    
+    
